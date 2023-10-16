@@ -1,0 +1,26 @@
+body {text-align: center;}
+.header {margin-top: 2%;
+	width: 90%;
+	height: 220px;
+	background-color: #fff685;
+	display: inline-block;
+}
+.menu {margin-top: 2%;
+	display: inline-block;
+width: 25%;
+height: 500px;
+background-color: #00e097;
+margin-right: 2%;}
+.content {margin-top: 2%;
+	margin-left: -4px;
+	display: inline-block;
+width: 65%;
+height: 500px;
+background-color: #c591ff;}
+
+@media (min-width: 320px) and (max-width: 600px) {
+	.content {
+		width: 95%;
+	}
+	.menu {width: 95%;}
+}
